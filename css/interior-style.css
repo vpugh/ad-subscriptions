@@ -1,4 +1,4 @@
-body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; color:#7d7d7d;}
+	body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; color:#7d7d7d;}
 	.container { width:972px; margin:0 auto; overflow:hidden; }
 	.sidebar {position:fixed; width:201px; height:100%;background:#3A3E4C;}
 	.sidebar a {color:#fff;}
@@ -14,6 +14,7 @@ body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-
 	ul > #IDT.pub-title {background:#d70a2c;}
 	.table-of-contents > ul ul {}
 	.maincontent {float:left; width:731px; padding:0 20px; background:#fff; margin:0 0 0 201px; }
+	.maincontent > div, .maincontent div > div {overflow: hidden;}
 	.logo{  padding: 40px 0 40px 15px;  display: block;}
 	#Compendium .logo{  background: #DAD79A;}
 	#InsideDentistry .logo{  background: #C30;}
@@ -37,13 +38,9 @@ body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-
 	.featuredeventimage-web{width:150px; height:150px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
 	div.featuredeventimage-web + div {width: 150px;}
 	.sample-description {text-align:center; font-size:14px; margin:22px 0 25px 0;}
-	h4:first-child {
-		/* border-bottom: none; */
-		margin-bottom: 30px;
-		border-top: 1px solid #F4F4F4;
-		padding: 21px 0 16px 0;
-	}
+	h4:first-child { margin-bottom: 30px; border-top: 1px solid #F4F4F4; padding: 21px 0 16px 0;	}
 	h4 {font-size:18px; font-weight:normal; /*padding:21px 0 16px 0;*/ padding:0 0 16px 0; margin:20px 0 0 0; border-bottom:1px solid #F4F4F4; color:#7d7d7d;}
+	.section {margin:20px 0;}
 	.section h2 { margin: 0 0 0 15px;}
 	.first .ad-space{padding-top:0; border-top:0; }
 	.ad-space {font-size:14px; font-weight:bold; line-height:19px; margin-top:20px; margin-bottom:12px; padding-bottom:16px; border-bottom:1px solid #F4F4F4;border-top:1px dashed #F4F4F4; padding-top:20px;}

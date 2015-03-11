@@ -1,71 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {padding:0; margin:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; background:#ebebeb;}
-.container {width:972px; margin:0 auto;}
-/*.maincontent {width:731px; padding:0 20px; margin-left:201px; background:#7d7d7d; overflow:hidden; text-align:center; color:#fff;}*/
-/*.sidebar {width:201px; position:fixed; }*/
-.col1 {float:left; width:164px; margin-left:15px;}
-.col4 {float:left; width:701px; margin-left:15px;}
-/*.random-grp {height:200px; padding: 20px 0;}*/
-.maincontent > div, .maincontent div > div {overflow: hidden;}
-.section {margin:20px 0;}
-.toc { padding: 0; margin: 0; font-size: 18px; list-style: none;
-/*background: #fff;*/ }
-.nav li a {
-display: block;
-padding: 16px 0 13px 20px;
-text-decoration: none;
-/*color: #7d7d7d;*/
-}
+.toc { padding: 0; margin: 0; font-size: 18px; list-style: none;}
+.nav li a {display: block;padding: 16px 0 13px 20px;text-decoration: none;}
 .nav li a[href="#Compendium"] { border-color:#DAD79A;}
 .nav li a[href="#InsideDentistry"] {border-color:#C30;}
 .nav li a[href="#InsideDentalTechnology"] {border-color:#F30;}
 .nav li a[href="#InsideDentalProducts"] {border-color:#900;}
-li a[href="#Compendium"]:hover{color: #DAD79A;}
-li a[href="#InsideDentistry"]:hover{color: #C30;}
-li a[href="#InsideDentalTechnology"]:hover{color: #F30;}
-li a[href="#InsideDentalProducts"]:hover{color: #900;}
-li.active a[href="#Compendium"]:hover, li.active a[href="#InsideDentistry"]:hover, li.active a[href="#InsideDentalTechnology"]:hover {color:#000;}
-/*.nav li a:hover{border-left: 10px solid #222; padding-left:10px;}*/
+.nav li a[href="#Compendium"]:hover{color: #DAD79A;}
+.nav li a[href="#InsideDentistry"]:hover{color: #C30;}
+.nav li a[href="#InsideDentalTechnology"]:hover{color: #F30;}
+.nav li a[href="#InsideDentalProducts"]:hover{color: #900;}
+.nav li.active a[href="#Compendium"]:hover, .nav li.active a[href="#InsideDentistry"]:hover, .nav li.active a[href="#InsideDentalTechnology"]:hover {color:#000;}
 .nav ul.nav {display: none;}
-.nav ul.nav li a {
-/*background: #fff;*/
-/*color: #7d7d7d;*/
-padding:10px 0 10px 20px;
-}
-li.active a {
-/*background: #222;*/
-/*color: #fff;*/
-border: none;
-padding-left: 20px;
-display:block;
-}
+.nav ul.nav li a {padding:10px 0 10px 20px;}
+li.active a {border: none;padding-left: 20px;display:block;}
 li.active a[href="#Compendium"]{background: #DAD79A;}
 li.active a[href="#InsideDentistry"]{background: #C30;}
 li.active a[href="#InsideDentalTechnology"]{background: #F30;}
 li.active a[href="#InsideDentalProducts"]{background: #900;}
 li.active a:hover{ color:#CACACA;}
-li.active > .nav {
-display: block;
-/*background: #fff;*/
-list-style:none;
-padding:0;
-font-size:16px;
-}
+li.active > .nav {display: block;list-style:none;padding:0;font-size:16px;}
 li.active > ul li {padding-left: 15px;	}
-li.active li.active > a {
-	/*color:#222;*/
-}
-li.active li.active > .nav {
-padding: 0 0 0 20px;
-font-size: 14px;
-}
-li.active li.active .nav > li a {
-	padding:5px 0 5px 20px;
-}
-li.active li.active li.active > a {
-color: #A9A9A9;
-font-weight:bold;
-}
+li.active li.active > a {/*color:#222;*/}
+li.active li.active > .nav {padding: 0 0 0 20px;font-size: 14px;}
+li.active li.active .nav > li a {padding:5px 0 5px 20px;}
+li.active li.active li.active > a {color: #A9A9A9;font-weight:bold;}
 
