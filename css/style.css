@@ -1,0 +1,28 @@
+@charset "UTF-8";
+	body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; color:#7d7d7d;}
+	.container { width:972px; margin:0 auto; }
+	.sidebar {position:fixed; width:201px; height:100%; background:#ddd;}
+	.table-of-contents {background:#fff; padding:0; margin:0; }
+	.table-of-contents li {list-style:none; padding:0; line-height:18px;}
+	.table-of-contents li a {text-decoration:none;}
+	.table-of-contents li ul {padding:0 0 0 20px; font-size:14px;}
+	li.pub-title {margin:0; }
+	#CCED.pub-title.selected > a {background:#e0c495; color:#fff; display:block; padding:17px 0 13px 20px; font-size:18px;}
+	#CCED.pub-title.selected > ul {padding:0 0 0 20px; font-size:16px;}
+	.table-of-contents
+	ul > #ID.pub-title {background:#ec0027; color:#fff;}
+	ul > #IDT.pub-title {background:#d70a2c; color:#fff;}
+	.table-of-contents > ul ul {}
+	.maincontent {float:left; width:731px; padding:0 20px; background:#f6f6f6; margin:0 0 0 201px; }
+	.col1, .col2, .col3, .col4 {float:left; margin-left:15px;}
+	.col1 { width:164px; }
+	.col2 {width:343px;}
+	.col3 {width:522px;}
+	.col4 {width:701px;}
+	.testcover {width:162px; height:216px; background:#e8e8e8; border:1px solid #dadada; text-align:center;}
+	.testspread {width:341px; height:216px; background:#e8e8e8; border:1px solid #dadada; text-align:center;}
+	.sample-description {text-align:center; font-size:14px; margin:22px 0 25px 0;}
+	h4 {font-size:18px; font-weight:normal; padding:21px 0 16px 0; margin:20px 0 0 0; border-bottom:1px solid #e5e5e5; color:#7d7d7d;}
+	.not-first{ border-top:1px solid #e5e5e5; padding-top:20px;}
+	.ad-space {font-size:14px; font-weight:bold; line-height:19px; margin-top:20px; margin-bottom:12px; padding-bottom:16px; border-bottom:1px solid #e5e5e5;}
+	.specs {font-size:14px; line-height:24px;}

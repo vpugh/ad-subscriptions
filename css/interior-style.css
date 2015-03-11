@@ -1,0 +1,51 @@
+body {margin:0; padding:0; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; color:#7d7d7d;}
+	.container { width:972px; margin:0 auto; overflow:hidden; }
+	.sidebar {position:fixed; width:201px; height:100%;background:#3A3E4C;}
+	.sidebar a {color:#fff;}
+	.table-of-contents {background:#fff; padding:0; margin:0; }
+	.table-of-contents li {list-style:none; padding:0; line-height:18px;}
+	.table-of-contents li a {text-decoration:none;}
+	.table-of-contents li ul {padding:0 0 0 20px; font-size:14px;}
+	li.pub-title {margin:0; color:#fff;}
+	#CCED.pub-title.selected > a {background:#e0c495; display:block; padding:17px 0 13px 20px; font-size:18px;}
+	#CCED.pub-title.selected > ul {padding:0 0 0 20px; font-size:16px;}
+	.table-of-contents
+	ul > #ID.pub-title {background:#ec0027; }
+	ul > #IDT.pub-title {background:#d70a2c;}
+	.table-of-contents > ul ul {}
+	.maincontent {float:left; width:731px; padding:0 20px; background:#fff; margin:0 0 0 201px; }
+	.logo{  padding: 40px 0 40px 15px;  display: block;}
+	#Compendium .logo{  background: #DAD79A;}
+	#InsideDentistry .logo{  background: #C30;}
+	#InsideDentalTechnology .logo{  background: #F30;}
+	.col1, .col2, .col3, .col4 {float:left; margin-left:15px;}
+	.col1 {width:164px; }
+	.col2 {width:343px;}
+	.col3 {width:522px;}
+	.col4 {width:716px;}
+	.testcover {width:162px; height:216px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell;vertical-align:middle;}
+	.testspread {width:341px; height:216px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell;vertical-align:middle;}
+	.masthead-web{width:728px; height:90px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	.billboard-web{width:638px; height:270px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	div.billboard-web + div {width: 638px;}
+	.centerbanner-web{width:640px; height:80px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	div.centerbanner-web + div {width: 640px;}
+	.button-web{width:300px; height:120px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	div.button-web + div {width: 300px;}
+	.featuredproductimage-web{width:400px; height:400px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	div.featuredproductimage-web + div {width: 400px;}
+	.featuredeventimage-web{width:150px; height:150px; background:#e8e8e8; border:1px solid #dadada; text-align:center; display:table-cell; vertical-align:middle;}
+	div.featuredeventimage-web + div {width: 150px;}
+	.sample-description {text-align:center; font-size:14px; margin:22px 0 25px 0;}
+	h4:first-child {
+		/* border-bottom: none; */
+		margin-bottom: 30px;
+		border-top: 1px solid #F4F4F4;
+		padding: 21px 0 16px 0;
+	}
+	h4 {font-size:18px; font-weight:normal; /*padding:21px 0 16px 0;*/ padding:0 0 16px 0; margin:20px 0 0 0; border-bottom:1px solid #F4F4F4; color:#7d7d7d;}
+	.section h2 { margin: 0 0 0 15px;}
+	.first .ad-space{padding-top:0; border-top:0; }
+	.ad-space {font-size:14px; font-weight:bold; line-height:19px; margin-top:20px; margin-bottom:12px; padding-bottom:16px; border-bottom:1px solid #F4F4F4;border-top:1px dashed #F4F4F4; padding-top:20px;}
+	.specs {font-size:14px; line-height:24px;}
+	.spec-group {float:left;}
